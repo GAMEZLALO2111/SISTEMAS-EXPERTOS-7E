@@ -1,0 +1,22 @@
+{
+    "intents": [
+        {
+            "tag": "saludo",
+            "patron": ["Hola", "Buenas Tardes", "Buenos Dias", "Muy Buenas", "Buenas"],
+            "respuesta": ["Hola", "Buenas Tardes", "Buenas Noches", "Hola Pinchi Naco Estupido como Cepillin"],
+            "context_set": ""
+        },
+        {
+            "tag": "pregunta",
+            "patron": ["Como estas?", "Como te encuentras?"],
+            "respuesta": ["Estoy Bien, y tú?", "Como no tengo alma no siento nada", "Excelente"],
+            "context_set": ""
+        },
+        {
+            "tag": "platica",
+            "patron": ["Quieres hablar de algo?", "Te gustaría hablar?", "Hablar"],
+            "respuesta": ["Por supuesto, de qué quieres hablar", "Claro", "Por su pollo", "Clarin"],
+            "context_set": ""
+        }
+    ]
+}
